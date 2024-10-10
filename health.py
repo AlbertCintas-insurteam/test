@@ -5,8 +5,7 @@ import logging
 import requests
 
 # Logging to stout
-logging.basicConfig(filename="/proc/1/fd/1",
-                    format="{'time':'%(asctime)s', 'level': '%(levelname)s', \
+logging.basicConfig(format="{'time':'%(asctime)s', 'level': '%(levelname)s', \
                            'message': '%(message)s'}",
                     level=logging.INFO)
 
